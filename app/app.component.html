@@ -1,0 +1,13 @@
+<div class="container">
+  <app-header></app-header>
+  </div>
+  <div class="container2">
+  <main>
+      
+  <app-post-create (postCreated)="onPostAdded($event)"></app-post-create>
+  <br/>
+  <app-post-lists [posts]="storedPosts"></app-post-lists>
+  
+  </main>
+  </div>
+  

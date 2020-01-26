@@ -1,0 +1,24 @@
+
+
+#my[_ngcontent-aei-c1] {
+    text-align: center;
+}
+
+
+.mat-toolbar.mat-primary {
+    background: rgb(51, 57, 139);
+  color:lightgreen;
+  
+    text-align: center;
+    font-weight: bold;padding-left:280px;
+    font-size: 40px;
+    text-shadow: 1px black;
+    border-radius: 10px;
+    
+}
+
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+    height: 84px;
+
+}

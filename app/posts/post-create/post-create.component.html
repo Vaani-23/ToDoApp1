@@ -1,0 +1,11 @@
+
+<hr/>
+<mat-card>
+    <mat-form-field>
+      <input matInput placeholder="I want to...." type="text" [(ngModel)]="enteredTitle" #itemname>
+    </mat-form-field>
+  
+    <button mat-raised-button color="accent"(click)="onAddPost()" [disabled]="itemname.value==''">Add your task</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+  </mat-card>
+    

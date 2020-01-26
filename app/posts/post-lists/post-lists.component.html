@@ -1,0 +1,15 @@
+<mat-accordion multi="true" *ngIf="posts.length > 0"> 
+    <mat-expansion-panel *ngFor="let post of posts;let i=index">
+      <mat-expansion-panel-header>
+         {{post.title}}
+        <button
+      mat-raised-button
+      color="accent"
+      (click)="ondelete()" style="margin-left:70%">Delete</button>
+    </mat-expansion-panel-header>
+    <p>{{post.content}}</p> 
+  </mat-expansion-panel>
+  </mat-accordion>
+  
+  <p class="infotext mat-body-1" *ngIf="posts.length<=0"></p>
+  
